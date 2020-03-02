@@ -1,4 +1,12 @@
+/* min-width: 576px and max-width: 767.98px*/
+
+/* Header */
+header
+{
+    height: 196px;
+    font-size: 88px;
+}
+
 .container {
     width: 540px;
-    background: purple;
 }

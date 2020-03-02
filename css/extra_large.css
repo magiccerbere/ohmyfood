@@ -1,4 +1,13 @@
-.container {
+/* Min-width: 1200px */
+
+/* Header */
+header
+{
+    height: 196px;
+    font-size: 88px;
+}
+
+.container 
+{
     width: 1140px;
-    background: yellow;
 }

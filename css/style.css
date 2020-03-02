@@ -1,9 +1,20 @@
-body {
-    background: red;
-}
-
 .container {
     margin: 0 auto;
-    height: 500px;
+}
+
+/* Header */
+header
+{
+    background-color: rgb(87, 156, 135);
+    color: rgb(253, 203, 70);
+    font-family: 'Montserrat';
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    display: flex;
+}
+
+header h1
+{
+    margin: auto;
 }
 

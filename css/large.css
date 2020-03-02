@@ -1,4 +1,12 @@
+/* min-width: 992px and max-width: 1199.98px */
+
+/* Header */
+header
+{
+    height: 196px;
+    font-size: 88px;
+}
+
 .container {
     width: 940px;
-    background: blue;
 }

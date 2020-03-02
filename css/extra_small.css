@@ -1,4 +1,13 @@
+/* Max-width:  575.98px */
+
+/* Header */
+header
+{
+    height: 100px;
+    font-size: 60px;
+}
+
+
 .container {
     width: 90%;
-    background: green;
 }
