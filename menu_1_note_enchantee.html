@@ -3,10 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Oh My Food!</title>
-        <link rel="stylesheet" href="style.css"> <!-- Une page de style par page, ou tout sur une même page de style ?-->
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extra_small.css" media="(max-width: 575.98px)">
+        <link rel="stylesheet" href="css/small.css" media="(min-width: 576px) and (max-width: 767.98px)">
+        <link rel="stylesheet" href="css/medium.css" media="(min-width: 768px) and (max-width: 991.98px)">
+        <link rel="stylesheet" href="css/large.css" media="(min-width: 992px) and (max-width: 1199.98px)">
+        <link rel="stylesheet" href="css/extra_large.css" media="(min-width: 1200px)">
         <meta name="description" content="La note enchantée, le menu fantastique d'Ohmyfood! 
         Du prélude jusqu'au mouvement final, en passant par le point d'orgue… "/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div id="main_wrapper">
@@ -15,11 +21,11 @@
         </header>
         <main>
             <h2>La note enchantée</h2>
-            <article>
+            <article> <!-- section-->
                 <header>
                 <h2>La note enchantée</h2>
                 </header>
-                <!-- Comment mettre les prix ? Tableau, bloc aside, ou aside par <p> ?-->
+                <!-- Comment mettre les prix ? Tableau, 2 blocs ?-->
                 <h3>Prélude</h3>
                 <p>Ravioles de foie gras accompagnés de leur crème à la truffe</p>
                 <p>Caviar osciètre sur blini à la farine de blé noir</p>
