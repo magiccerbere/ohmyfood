@@ -7,7 +7,27 @@ header
     font-size: 88px;
 }
 
-.container 
+/* Container : main */
+#container 
 {
     width: 1140px;
+    background-color: green;
+}
+
+/* Navigation */
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 91px;
+    margin-bottom: 73px;
+}
+
+li
+{
+    height: 381.5px;
+    width: 267.5px;
+    background-color: red;
 }

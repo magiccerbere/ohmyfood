@@ -1,7 +1,3 @@
-.container {
-    margin: 0 auto;
-}
-
 /* Header */
 header
 {
@@ -16,5 +12,10 @@ header
 header h1
 {
     margin: auto;
+}
+
+/* Container */
+#container {
+    margin: 0 auto;
 }
 
