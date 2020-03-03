@@ -7,6 +7,45 @@ header
     font-size: 88px;
 }
 
-.container {
+/* Container : main */
+
+#container 
+{
     width: 720px;
+}
+
+/* Navigation */
+ul
+{
+    margin-top: 55px;
+    margin-bottom: 44.5px;
+}
+li
+{
+    height: 465px;
+    width: 326px;
+}
+
+#menu_1
+{
+    margin-right: 58px;
+    margin-bottom: 43.29px;
+}
+
+.fa-music
+{
+    font-size: 50.6px;
+}
+
+#menu_3
+{
+    margin-right: 58px;
+}
+
+/* Bouton Prochainement */
+.btn
+{
+    height: 71px;
+    width: 400px;
+    margin: auto;
 }

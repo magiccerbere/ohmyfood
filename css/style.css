@@ -15,7 +15,52 @@ header h1
 }
 
 /* Container */
-#container {
+#container 
+{
     margin: 0 auto;
 }
 
+/* Navigation */
+ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu_1
+{
+    background-color: rgb(252, 223, 219);
+    font-family: 'Devonshire';
+}
+
+#menu_2
+{
+    background-color: rgb(255, 245, 254);
+}
+
+#menu_3
+{
+    background-color: rgb(249, 249, 249);
+    font-family: 'Dancing Script';
+}
+
+#menu_4
+{
+    background-color: rgb(253, 255, 253);
+    font-family: 'Kaushan Script';
+}
+
+/* Bouton Prochainement */
+.btn
+{
+    background-color: rgb(87, 156, 135);
+    color: rgb(253, 203, 70);
+   /* display: flex;*/
+}
