@@ -40,10 +40,6 @@ li
     justify-content: center;
 }
 
-.menu:not(#menu_2) /* Comment cibler tous les .menu sauf le 2 ? */
-{
-    font-family: 'Roboto';
-}
 
 /* Menu 1 */
 
@@ -115,6 +111,8 @@ li
 #menu_3 .menu
 {
     color: rgb(8, 135, 251);
+    font-family: 'Roboto';
+    font-style: italic;
 }
 
 /* Menu 4 */
@@ -123,6 +121,21 @@ li
 {
     background-color: rgb(253, 255, 253);
     font-family: 'Kaushan Script';
+}
+
+#menu_4 p
+{
+    background: linear-gradient(to right, rgb(66, 151, 60), rgb(200, 254, 148));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#menu_4 .menu
+{
+    color: rgb(114, 191, 86);
+    font-family: 'Roboto';
+    font-style: italic;
 }
 
 /* Bouton Prochainement */
