@@ -10,8 +10,7 @@ header
 /* Container : main */
 #container 
 {
-    width: 1140px;
-    background-color: green;
+    width: 1184px;
 }
 
 /* Navigation */
@@ -24,6 +23,63 @@ ul
 
 li
 {
-    height: 381.5px;
-    width: 267.5px;
+    height: 763px;
+    width: 535px;
+    box-shadow: 0px 0px 12px 4px rgba(237, 237, 237);
+}
+
+/* Menu 1 */
+
+#menu_1
+{
+    margin-right: 96px;
+    margin-bottom: 71px;
+}
+
+.fa-music
+{
+    font-size: 83px;
+    margin-bottom: 12px;
+}
+
+#menu_1 .menu
+{
+    font-size: 61.1px;
+}
+
+#menu_1 p
+{
+    font-size: 36px;
+    margin-bottom: 66px;
+}
+
+/* Menu 2 */
+
+#menu_2 .menu
+{
+    font-size: 50px;
+}
+
+#menu_2 p
+{
+    font-size: 36px;
+    margin-bottom: 54px;
+}
+
+/* Menu 3 */
+
+#menu_3
+{
+    margin-right: 96px;
+} 
+
+#menu_3 .menu
+{
+    font-size: 50px;
+}
+
+#menu_3 p
+{
+    font-size: 58px;
+    margin-bottom: 69px;
 }
