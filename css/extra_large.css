@@ -3,54 +3,52 @@
 /* Header */
 header
 {
-    height: 196px;
-    font-size: 88px;
+    height: 195px;
+    font-size: 90px;
 }
 
 /* Container : main */
 #container 
 {
-    width: 1184px;
+    width: 1185px;
 }
 
 /* Navigation */
 
 ul
 {
-    margin-top: 91px;
-    margin-bottom: 73px;
+    margin-top: 90px;
+    margin-bottom: 75px;
 }
 
 li
 {
-    height: 763px;
-    width: 535px;
-    box-shadow: 0px 0px 12px 4px rgba(237, 237, 237);
+    height: 765px;
+    box-shadow: 0px 0px 10px 5px rgba(237, 237, 237);
 }
 
 /* Menu 1 */
 
 #menu_1
 {
-    margin-right: 96px;
-    margin-bottom: 71px;
+    margin-bottom: 70px;
 }
 
 .fa-music
 {
-    font-size: 83px;
-    margin-bottom: 12px;
+    font-size: 85px;
+    margin-bottom: 10px;
 }
 
 #menu_1 .menu
 {
-    font-size: 61.1px;
+    font-size: 60px;
 }
 
 #menu_1 p
 {
-    font-size: 36px;
-    margin-bottom: 66px;
+    font-size: 35px;
+    margin-bottom: 65px;
 }
 
 /* Menu 2 */
@@ -62,26 +60,21 @@ li
 
 #menu_2 p
 {
-    font-size: 36px;
-    margin-bottom: 54px;
+    font-size: 35px;
+    margin-bottom: 55px;
 }
 
 /* Menu 3 */
 
-#menu_3
-{
-    margin-right: 96px;
-} 
-
-#menu_3 .menu
+#menu_3 .h3
 {
     font-size: 50px;
 }
 
 #menu_3 p
 {
-    font-size: 58px;
-    margin-bottom: 69px;
+    font-size: 60px;
+    margin-bottom: 70px;
 }
 
 /* Menu 4 */
@@ -93,6 +86,6 @@ li
 
 #menu_4 p
 {
-    font-size: 61px;
-    margin-bottom: 46px;
+    font-size: 60px;
+    margin-bottom: 45px;
 }

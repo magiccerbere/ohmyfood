@@ -3,8 +3,8 @@
 /* Header */
 header
 {
-    height: 196px;
-    font-size: 88px;
+    height: 195px;
+    font-size: 90px;
 }
 
 #container {
@@ -14,40 +14,33 @@ header
 /* Navigation */
 ul
 {
-    margin-top: 41.18px;
-    margin-bottom: 33.32px;
+    margin-top: 40px;
+    margin-bottom: 35px;
 }
 li
 {
-    height: 348.21px;
-    width: 244.12px;
-    box-shadow: 0px 0px 7px 2.87px rgba(237, 237, 237);
+    height: 350px;
+    box-shadow: 0px 0px 10px 3px rgba(237, 237, 237);
 }
 
 #menu_1
 {
-    margin-right: 43.43px;
-    margin-bottom: 32.41px;
+    margin-bottom: 30px;
 }
 
 .fa-music
 {
-    font-size: 37.89px;
-    margin-bottom: 5.47px;
+    font-size: 40px;
+    margin-bottom: 5px;
 }
 
-#menu_1 .menu
+#menu_1 h3
 {
-    font-size: 27.89px;
+    font-size: 30px;
 }
 
 #menu_1 p
 {
-    font-size: 21.95px;
-    margin-bottom: 30.13px;
-}
-
-#menu_3
-{
-    margin-right: 43.43px;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
