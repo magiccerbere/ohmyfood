@@ -7,9 +7,34 @@ header
     font-size: 60px;
 }
 
+/* Container : main */
 
 #container {
     width: 90%;
+}
+
+/* Navigation */
+
+/* Menu 1 */
+
+#menu_1
+{
+    flex-grow: 1;
+}
+
+#menu_2
+{
+    flex-grow: 1;
+}
+
+#menu_3
+{
+    flex-grow: 2;
+}
+
+#menu_4
+{
+    flex-grow: 1;
 }
 
 /* Convertir en % */

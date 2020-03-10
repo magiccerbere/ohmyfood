@@ -62,7 +62,7 @@ li
     color: rgb(60, 18, 24);
 }
 
-#menu_1 .menu
+#menu_1 h3
 {
     font-family: 'Roboto';
     font-weight: bold;
@@ -78,7 +78,7 @@ li
     font-family: 'Croissant One';
 }
 
-#menu_2 p
+#menu_2 h2
 {
     background: linear-gradient(to right, rgb(216, 133, 46), rgb(144, 91, 253));
     background-clip: text;
@@ -87,7 +87,7 @@ li
 }
 
 
-#menu_2 .menu
+#menu_2 h3
 {
     color: rgb(199, 116, 18);
 }
@@ -100,7 +100,7 @@ li
     font-family: 'Dancing Script';
 }
 
-#menu_3 p
+#menu_3 h2
 {
     background: linear-gradient(to right, rgb(4, 49, 223), rgb(8, 135, 251));
     background-clip: text;
@@ -108,7 +108,7 @@ li
     -webkit-text-fill-color: transparent;
 }
 
-#menu_3 .menu
+#menu_3 h3
 {
     color: rgb(8, 135, 251);
     font-family: 'Roboto';
@@ -123,7 +123,7 @@ li
     font-family: 'Kaushan Script';
 }
 
-#menu_4 p
+#menu_4 h2
 {
     background: linear-gradient(to right, rgb(66, 151, 60), rgb(200, 254, 148));
     background-clip: text;
@@ -131,7 +131,7 @@ li
     -webkit-text-fill-color: transparent;
 }
 
-#menu_4 .menu
+#menu_4 h3
 {
     color: rgb(114, 191, 86);
     font-family: 'Roboto';
@@ -146,8 +146,3 @@ li
    /* display: flex;*/
 }
 
-/* Lien */
-a
-{
-    text-decoration: none;
-}

@@ -42,12 +42,12 @@ li
     margin-bottom: 12px;
 }
 
-#menu_1 .menu
+#menu_1 h3
 {
     font-size: 61.1px;
 }
 
-#menu_1 p
+#menu_1 h2
 {
     font-size: 36px;
     margin-bottom: 66px;
@@ -55,12 +55,12 @@ li
 
 /* Menu 2 */
 
-#menu_2 .menu
+#menu_2 h3
 {
     font-size: 50px;
 }
 
-#menu_2 p
+#menu_2 h2
 {
     font-size: 36px;
     margin-bottom: 54px;
@@ -73,12 +73,12 @@ li
     margin-right: 96px;
 } 
 
-#menu_3 .menu
+#menu_3 h3
 {
     font-size: 50px;
 }
 
-#menu_3 p
+#menu_3 h2
 {
     font-size: 58px;
     margin-bottom: 69px;
@@ -86,13 +86,13 @@ li
 
 /* Menu 4 */
 
-#menu_4 .menu
+#menu_4 h3
 {
     font-size: 50px;
 }
 
-#menu_4 p
+#menu_4 h2
 {
     font-size: 61px;
-    margin-bottom: 46px;
+    margin-bottom: 46x;
 }
