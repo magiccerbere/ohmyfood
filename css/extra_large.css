@@ -17,7 +17,7 @@ header
 
 ul
 {
-    margin-top: 90px;
+    margin-top: 80px;
     margin-bottom: 75px;
 }
 
@@ -48,7 +48,7 @@ li
 #menu_1 h2
 {
     font-size: 35px;
-    margin-bottom: 65px;
+    margin-bottom: 50px;
 }
 
 /* Menu 2 */
@@ -61,29 +61,20 @@ li
 #menu_2 h2
 {
     font-size: 35px;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 
 /* Menu 3 */
 
-<<<<<<< HEAD
-#menu_3
-{
-    margin-right: 96px;
-} 
-
 #menu_3 h3
-=======
-#menu_3 .h3
->>>>>>> flex-growth
 {
     font-size: 50px;
 }
 
 #menu_3 h2
 {
-    font-size: 60px;
-    margin-bottom: 70px;
+    font-size: 35px;
+    margin-bottom: 50px;
 }
 
 /* Menu 4 */
@@ -95,11 +86,19 @@ li
 
 #menu_4 h2
 {
-<<<<<<< HEAD
-    font-size: 61px;
-    margin-bottom: 46x;
-=======
-    font-size: 60px;
-    margin-bottom: 45px;
->>>>>>> flex-growth
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+/* Buton Prochainement */
+.btn
+{
+    height: 70px;
+    width: 400px;
+    margin: auto;
+}
+
+.btn a
+{
+    font-size: 50px;
 }

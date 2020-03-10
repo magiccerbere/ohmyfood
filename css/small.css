@@ -3,8 +3,8 @@
 /* Header */
 header
 {
-    height: 195px;
-    font-size: 90px;
+    height: 120px;
+    font-size: 70px;
 }
 
 #container {
@@ -22,6 +22,8 @@ li
     height: 350px;
     box-shadow: 0px 0px 10px 3px rgba(237, 237, 237);
 }
+
+/* Menu 1 */
 
 #menu_1
 {
@@ -43,4 +45,43 @@ li
 {
     font-size: 20px;
     margin-bottom: 30px;
+}
+
+/* Menu 2 */
+
+#menu_2 h3
+{
+    font-size: 25px;
+}
+
+#menu_2 h2
+{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* Menu 3 */
+
+#menu_3 h3
+{
+    font-size: 25px;
+}
+
+#menu_3 h2
+{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* Menu 4 */
+
+#menu_4 h3
+{
+    font-size: 25px;
+}
+
+#menu_4 h2
+{
+    font-size: 20px;
+    margin-bottom: 25px;
 }

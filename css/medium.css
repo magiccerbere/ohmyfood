@@ -3,7 +3,7 @@
 /* Header */
 header
 {
-    height: 195px;
+    height: 150px;
     font-size: 85px;
 }
 
@@ -25,6 +25,8 @@ li
     height: 465px;
     box-shadow: 0px 0px 7px 3px rgba(237, 237, 237);
 }
+
+/* Menu */
 
 #menu_1
 {
@@ -48,10 +50,42 @@ li
     margin-bottom: 40px;
 }
 
-/* Bouton Prochainement */
-.btn
+/* Menu 2 */
+
+#menu_2 h3
 {
-    height: 70px;
-    width: 400px;
-    margin: auto;
+    font-size: 30px;
 }
+
+#menu_2 h2
+{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Menu 3 */
+
+#menu_3 h3
+{
+    font-size: 30px;
+}
+
+#menu_3 h2
+{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Menu 4 */
+
+#menu_4 h3
+{
+    font-size: 30px;
+}
+
+#menu_4 h2
+{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+

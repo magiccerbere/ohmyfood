@@ -3,7 +3,7 @@
 /* Header */
 header
 {
-    height: 100px;
+    height: 90px;
     font-size: 60px;
 }
 
@@ -13,28 +13,81 @@ header
     width: 90%;
 }
 
+/* Convertir en % ci-dessous, et changer l'organisation. */
+
 /* Navigation */
+
+ul
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li
+{
+    height: 200px;
+    box-shadow: 0px 0px 10px 5px rgba(237, 237, 237);
+}
 
 /* Menu 1 */
 
 #menu_1
 {
-    flex-grow: 1;
+    margin-bottom: 20px;
 }
 
-#menu_2
+.fa-music
 {
-    flex-grow: 1;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
-#menu_3
+#menu_1 h3
 {
-    flex-grow: 2;
+    font-size: 30px;
 }
 
-#menu_4
+#menu_1 h2
 {
-    flex-grow: 1;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
-/* Convertir en % */
+/* Menu 2 */
+
+#menu_2 h3
+{
+    font-size: 30px;
+}
+
+#menu_2 h2
+{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+/* Menu 3 */
+
+#menu_3 h3
+{
+    font-size: 30px;
+}
+
+#menu_3 h2
+{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+/* Menu 4 */
+
+#menu_4 h3
+{
+    font-size: 30px;
+}
+
+#menu_4 h2
+{
+    font-size: 25px;
+    margin-bottom: 30px;
+}

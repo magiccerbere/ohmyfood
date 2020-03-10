@@ -21,7 +21,6 @@ ul
 li
 {
     height: 605px;
-    width: 425px;
     box-shadow: 0px 0px 9px 5px rgba(237, 237, 237);
 }
 
@@ -49,8 +48,42 @@ li
     margin-bottom: 50px;
 }
 
-/* Menu 2 */
+/* Menu 2 */
+/* A adapter */
 
-/* Menu 3*/
+#menu_2 h3
+{
+    font-size: 40px;
+}
+
+#menu_2 h2
+{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+/* Menu 3 */
+
+#menu_3 h3
+{
+    font-size: 40px;
+}
+
+#menu_3 h2
+{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
 
 /* Menu 4 */
+
+#menu_4 h3
+{
+    font-size: 40px;
+}
+
+#menu_4 h2
+{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
