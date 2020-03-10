@@ -3,8 +3,8 @@
 /* Header */
 header
 {
-    height: 196px;
-    font-size: 88px;
+    height: 195px;
+    font-size: 85px;
 }
 
 /* Container : main */
@@ -18,47 +18,40 @@ header
 ul
 {
     margin-top: 55px;
-    margin-bottom: 44.5px;
+    margin-bottom: 45px;
 }
 li
 {
     height: 465px;
-    width: 326px;
-   box-shadow: 0px 0px 7px 2.87px rgba(237, 237, 237);
+    box-shadow: 0px 0px 7px 3px rgba(237, 237, 237);
 }
 
 #menu_1
 {
-    margin-right: 58px;
-    margin-bottom: 43.29px;
+    margin-bottom: 45px;
 }
 
 .fa-music
 {
-    font-size: 50.6px;
-    margin-bottom: 7.31px;
+    font-size: 50px;
+    margin-bottom: 5px;
 }
 
 #menu_1 h3
 {
-    font-size: 37.25px;
+    font-size: 40px;
 }
 
 #menu_1 h2
 {
-    font-size: 21.95px;
-    margin-bottom: 40.24px;
+    font-size: 20px;
+    margin-bottom: 40px;
 }
-
-#menu_3
-{
-    margin-right: 58px;
-} 
 
 /* Bouton Prochainement */
 .btn
 {
-    height: 71px;
+    height: 70px;
     width: 400px;
     margin: auto;
 }
