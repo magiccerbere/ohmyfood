@@ -10,6 +10,7 @@ header
 #container 
 {
     width: 940px;
+    margin-bottom: 180px;
 }
 
 /* Navigation */
@@ -49,7 +50,6 @@ li
 }
 
 /* Menu 2 */
-/* A adapter */
 
 #menu_2 h3
 {
@@ -86,4 +86,27 @@ li
 {
     font-size: 30px;
     margin-bottom: 40px;
+}
+
+/* Button Prochainement */
+.btn
+{
+    height: 95px;
+    width: 520px;
+}
+
+.btn a
+{
+    font-size: 40px;
+}
+
+/* Footer */
+footer
+{
+    height: 110px;
+}
+
+footer a
+{
+    font-size: 40px;
 }

@@ -7,8 +7,10 @@ header
     font-size: 70px;
 }
 
-#container {
+#container 
+{
     width: 540px;
+    margin-bottom: 110px;
 }
 
 /* Navigation */
@@ -84,4 +86,27 @@ li
 {
     font-size: 20px;
     margin-bottom: 25px;
+}
+
+/* Button Prochainement */
+.btn
+{
+    height: 55px;
+    width: 330px;
+}
+
+.btn a
+{
+    font-size: 25px;
+}
+
+/* Footer */
+footer
+{
+    height: 70px;
+}
+
+footer a
+{
+    font-size: 25px;
 }

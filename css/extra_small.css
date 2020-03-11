@@ -11,9 +11,8 @@ header
 
 #container {
     width: 90%;
+    margin-bottom: 100px;
 }
-
-/* Convertir en % ci-dessous, et changer l'organisation. */
 
 /* Navigation */
 
@@ -90,4 +89,27 @@ li
 {
     font-size: 25px;
     margin-bottom: 30px;
+}
+
+/* Button Prochainement */
+.btn
+{
+    height: 50px;
+    width: 40%;
+}
+
+.btn a
+{
+    font-size: 15px;
+}
+
+/* Footer */
+footer
+{
+    height: 70px;
+}
+
+footer a
+{
+    font-size: 20px;
 }

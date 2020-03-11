@@ -11,6 +11,7 @@ header
 #container 
 {
     width: 1185px;
+    margin-bottom: 225px;
 }
 
 /* Navigation */
@@ -90,15 +91,25 @@ li
     margin-bottom: 50px;
 }
 
-/* Buton Prochainement */
+/* Button Prochainement */
 .btn
 {
-    height: 70px;
-    width: 400px;
-    margin: auto;
+    height: 115px;
+    width: 655px;
 }
 
 .btn a
+{
+    font-size: 50px;
+}
+
+/* Footer */
+footer
+{
+    height: 140px;
+}
+
+footer a
 {
     font-size: 50px;
 }
