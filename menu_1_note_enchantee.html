@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>Oh My Food!</title>
         <meta name="viewport" content="width=device-width, user-scalable=no">
+        <script src="https://kit.fontawesome.com/dd5860a89a.js" crossorigin="anonymous"></script>
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Croissant+One|Kalam|Gelasio|Montserrat|Dancing+Script|Roboto|Devonshire|Kaushan+Script&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/extra_small.css" media="(max-width: 575.98px)">
@@ -13,40 +16,68 @@
         <link rel="stylesheet" href="css/extra_large.css" media="(min-width: 1200px)">
         <meta name="description" content="La note enchantée, le menu fantastique d'Ohmyfood! 
         Du prélude jusqu'au mouvement final, en passant par le point d'orgue… "/>
+        <!-- Ajouter les meta tags Facebook et Twitter-->
     </head>
     <body>
         <header>
             <h1>ohmyfood</h1>
         </header>
-        <main>
-            <h2>La note enchantée</h2>
-            <article> <!-- section-->
-                <header>
-                <h2>La note enchantée</h2>
-                </header>
-                <!-- Comment mettre les prix ? Tableau, 2 blocs ?-->
+        <main id="container">
+            <h1>La note enchantée</h1>
+            <section id="section_menu_1">
+                <h2><i class="fas fa-music"></i><br />La note enchantée</h2>
                 <h3>Prélude</h3>
-                <p>Ravioles de foie gras accompagnés de leur crème à la truffe</p>
-                <p>Caviar osciètre sur blini à la farine de blé noir</p>
-                <p>Homard et espuma de potiron mariné aux zests d'orange</p>
-                <p>Foie gras de canard cuit entier, confiture de figue et pain toasté</p>
+                <table>
+                    <tr>
+                        <td>Ravioles de foie gras accompagnés de leur crème à la truffe</td>
+                        <td>98€</td>
+                    </tr>
+                    <tr>
+                        <td>Caviar osciètre sur blini à la farine de blé noir</td>
+                        <td>115€</td>
+                    </tr>
+                    <tr>
+                        <td>Homard et espuma de potiron mariné aux zests d'orange</td>
+                        <td>89€</td>
+                    </tr>
+                    <tr>
+                        <td>Foie gras de canard cuit entier, confiture de figue et pain toasté</td>
+                        <td>105€</td>
+                    </tr>
+                </table>
                 <h3>Point d'orgue</h3>
-                <p>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</p>
-                <p>Langoustine poêlée, purée de patate douce</p>
-                <p>Mijoté de queue de boeuf et riz sauvage aux zests de citron</p>
+                <table>
+                    <tr>
+                        <td>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</td>
+                        <td>102€</td>
+                    </tr>
+                    <tr>
+                        <td>Langoustine poêlée, purée de patate douce</td>
+                        <td>205€</td>
+                    </tr>
+                    <tr>
+                        <td>Mijoté de queue de boeuf et riz sauvage aux zests de citron</td>
+                        <td>169€</td>
+                    </tr>
+                </table>
                 <h3>Mouvement final</h3>
-                <p>Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</p>
-                <p>Baba au rhum revisité avec son coulis de citron</p>
-                <p>Tarte au citron meringuée destructurée</p>
-                <footer>
-                    <h2>La note enchantée</h2>
-                </footer>
-            </article>
-            <!--Aside, tableau-->
+                <table>
+                    <tr>
+                        <td>Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</td>
+                    </tr>
+                    <tr>
+                        <td>Baba au rhum revisité avec son coulis de citron</td>
+                    </tr>
+                    <tr>
+                        <td>Tarte au citron meringuée destructurée</td>
+                    </tr>
+                </table>
+                    <h4><i class="fas fa-music"></i>La note enchantée</h4> <!-- span-->
+            </section>
         </main>
-        <footer> 
-            <h2>Mentions légales</h2>
-            <h2>Contactez-nous</h2>
+        <footer>
+            <a href="#" target="_blank" id="legal">Mentions légales</a>
+            <a href="mailto:contact@ohmyfood.com" id="contact">Contactez-nous</a>
         </footer>
     </body>
 </html>

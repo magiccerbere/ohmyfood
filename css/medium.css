@@ -3,8 +3,8 @@
 /* Header */
 header
 {
-    height: 150px;
-    font-size: 85px;
+    height: 110px;
+    font-size: 50px;
 }
 
 /* Container : main */
@@ -105,7 +105,7 @@ li
 /* Footer */
 footer
 {
-    height: 85px;
+    height: 75px;
 }
 
 footer a
