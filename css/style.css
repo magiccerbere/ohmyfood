@@ -268,7 +268,13 @@ footer a:hover
     }
   }
 
-  /* Section Menu 1 : dish presentation */
+/* Section all menu */
+.price
+{
+    font-weight: bold;
+}
+
+/* Section Menu 1 : dish presentation */
 #section_menu_1
 {
     background-color: rgb(252, 223, 219);
@@ -280,7 +286,8 @@ footer a:hover
     text-align: center;
 }
 
-section h3
+#section_menu_1 table
 {
-    text-align: center;
+    font-family: "Kalam";
 }
+
