@@ -45,24 +45,28 @@ li
 {
     display: flex;
     flex: 1 0 40%;
+    margin: 5%;
+}
+
+/* Animation on hover nav : zoom menu */
+
+.zoom_menu
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1 0 40%;
     align-items: center;
     justify-content: center;
-    margin: 5%;
     opacity: 1;
     transform: scale(1);
 }
 
-/* Animation on hover nav */
-li:hover
+.zoom_menu:hover
 {
     opacity: 0.5;
     transition: 1s;
-}
-
-li a:hover
-{
     transform: scale(1.3);
-    transition: 1s;
 }
 
 /* End animation on hover nav */
