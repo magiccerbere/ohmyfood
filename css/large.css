@@ -7,10 +7,18 @@ header
     font-size: 50px;
 }
 
+/* Container: Main */
 #container 
 {
     width: 940px;
     margin-bottom: 180px;
+}
+
+#container h1
+{
+    font-size: 40px;
+    margin-top: 85px;
+    margin-bottom: 35px;
 }
 
 /* Navigation */
@@ -109,4 +117,59 @@ footer
 footer a
 {
     font-size: 30px;
+}
+
+/* Section Menu 1 : dish presentation */
+#section_menu_1
+{
+    padding-left: 105px;
+    padding-right: 105px;
+    box-shadow: 0px 0px 10px 5px rgba(237, 237, 237);
+}
+
+table
+{
+    width: 775px;
+}
+
+#section_menu_1 h2
+{
+    font-size: 50px;
+}
+
+#section_menu_1 h2 .fa-music
+{
+    font-size: 90px;
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+
+#section_menu_1 caption
+{
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+#section_menu_1 caption:nth-child(1)
+{
+    margin-top: 70px;
+}
+
+#section_menu_1 td
+{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+#section_menu_1 p
+{
+    font-size: 45px;
+    padding-bottom: 85px;
+    margin-top: 75px;
+}
+
+#section_menu_1 p i
+{
+    margin-right: 10px;
 }
