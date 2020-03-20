@@ -113,12 +113,12 @@ li
 /* Footer */
 footer
 {
-    height: 80px;
+    height: 60px;
 }
 
 footer a
 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /* Section Menu 1 : dish presentation */
@@ -143,6 +143,7 @@ table
 {
     font-size: 115px;
     margin-top: 85px;
+    margin-bottom: 20px;
 }
 
 #section_menu_1 caption
@@ -163,12 +164,14 @@ table
     padding-bottom: 35px;
 }
 
-caption::before, caption::after
+#section_menu_1 p
 {
-    left: 0;
-    right: 0;
-    height: 15px;
-    width: 290px;
-    background: black;
-    content: "";
+    font-size: 55px;
+    padding-bottom: 110px;
+    margin-top: 95px;
+}
+
+#section_menu_1 p i
+{
+    margin-right: 15px;
 }
