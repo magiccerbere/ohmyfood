@@ -123,7 +123,7 @@ footer a
 }
 
 /* Section Menu: dish presentation */
-#section_menu_1, #section_menu_2 
+#section_menu_1, #section_menu_2, #section_menu_3, #section_menu_4 
 {
     padding-left: 10px;
     padding-right: 10px;
@@ -141,9 +141,11 @@ tr
     flex-direction: column;
 }
 
-#section_menu_1 h2, #section_menu_2 h2
+#section_menu_1 h2, #section_menu_2 h2, #section_menu_3 h2, #section_menu_4 h2
 {
     font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 10px;
 }
 
 #section_menu_1 h2 .fa-music
@@ -153,19 +155,19 @@ tr
     margin-bottom: 10px;
 }
 
-#section_menu_1 caption, #section_menu_2 caption
+caption
 {
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 20px;
 }
 
-#section_menu_1 caption:nth-child(1), #section_menu_2 caption:nth-child(1)
+caption:nth-child(1)
 {
     margin-top: 20px;
 }
 
-#section_menu_1 td, #section_menu_2 td
+td
 {
     font-size: 15px;
     padding-bottom: 15px;
@@ -183,26 +185,13 @@ tr
     margin-right: 5px;
 }
 
+#section_menu_2, #section_menu_3, #section_menu_4
+{
+    padding-bottom: 30px;
+}
+
 /* Line around caption in menu  */
 .line_around_before, .line_around_after
 {
     display: none;
-}
-
-/* Menu 2 : dish presentation */
-#section_menu_2 h2 
-{
-    font-size: 25px;
-    padding-top: 20px;
-    margin-bottom: 10px;
-}
-
-#section_menu_2 .line_around_before, .line_around_after
-{
-    width: 110px;
-}
-
-#section_menu_2
-{
-    padding-bottom: 30px;
 }

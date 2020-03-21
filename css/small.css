@@ -120,8 +120,8 @@ footer a
     font-size: 25px;
 }
 
-/* Section Menu 1 : dish presentation */
-#section_menu_1, #section_menu_2
+/* Section Menu : dish presentation */
+#section_menu_1, #section_menu_2, #section_menu_3, #section_menu_4
 {
     padding-left: 65px;
     padding-right: 65px;
@@ -133,9 +133,11 @@ table
     width: 465px;
 }
 
-#section_menu_1 h2, #section_menu_2 h2
+#section_menu_1 h2, #section_menu_2 h2, #section_menu_3 h2, #section_menu_4 h2
 {
-    font-size: 30px;
+    font-size: 25px;
+    padding-top: 40px;
+    margin-bottom: 10px;
 }
 
 #section_menu_1 h2 .fa-music
@@ -145,19 +147,19 @@ table
     margin-bottom: 10px;
 }
 
-#section_menu_1 caption, #section_menu_2 caption
+caption
 {
     font-size: 20px;
     margin-bottom: 25px;
     margin-top: 60px;
 }
 
-#section_menu_1 caption:nth-child(1), #section_menu_2 caption:nth-child(1)
+caption:nth-child(1)
 {
     margin-top: 45px;
 }
 
-#section_menu_1 td, #section_menu_2 td
+td
 {
     font-size: 15px;
     padding-bottom: 15px;
@@ -175,28 +177,15 @@ table
     margin-right: 5px;
 }
 
+#section_menu_2, #section_menu_3, #section_menu_4
+{
+    padding-bottom: 55px;
+}
+
 /* Line around caption in menu */
 .line_around_before, .line_around_after
 {
     top: 45%;
     height: 4px;
-    width: 140px;
-}
-
-/* Menu 2 : dish presentation */
-#section_menu_2 h2 
-{
-    font-size: 25px;
-    padding-top: 40px;
-    margin-bottom: 10px;
-}
-
-#section_menu_2 .line_around_before, .line_around_after
-{
     width: 110px;
-}
-
-#section_menu_2
-{
-    padding-bottom: 55px;
 }
