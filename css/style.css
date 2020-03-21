@@ -114,9 +114,10 @@ li h3
 #menu_2
 {
     background-color: rgb(255, 245, 254);
+    font-family: "Croissant One";
 }
 
-#menu_2 h2
+#menu_2 h2, #section_menu_2 h2
 {
     background: linear-gradient(to right, rgb(216, 133, 46), rgb(144, 91, 253));
     background-clip: text;
@@ -297,11 +298,12 @@ footer a:hover
     font-family: "Devonshire";
 }
 
-/* Transition on caption for menu */
+/* Transition on caption for menu and line around caption in menu */
 
 .border_menu
 {
     position: relative;
+    text-align: center; /* + */
 }
 .border_menu:before
 {
@@ -320,4 +322,117 @@ footer a:hover
 .border_menu:hover:before
 {
     transform: scaleX(1);
+}
+
+/* Line around caption in menu 1 */
+#section_menu_1 .line_around_before
+{
+    position: absolute;
+    left: 0;
+    background-color: rgb(61, 19, 25);
+    content: "";
+    border-radius: 20px;
+}
+
+#section_menu_1 .line_around_after
+{
+    position: absolute;
+    right: 0;
+    background-color: rgb(61, 19, 25);
+    content: "";
+    border-radius: 20px;
+}
+
+/* Section Menu 2: dish presentation */
+#section_menu_2
+{
+    background-color: rgb(255, 245, 254);
+}
+
+#section_menu_2 h2
+{
+    font-family: "Croissant One";
+    text-align: center;
+}
+
+#section_menu_2 table
+{
+    font-family: "Gelasio";
+}
+
+/* First table in menu 2 */
+
+#first_table_menu_2
+{
+    color: rgb(198, 116, 18);
+}
+
+/* Second table in menu 2 */
+
+#second_table_menu_2
+{
+    color: rgb(165, 103, 153);
+}
+
+/* Third table in menu 2 */
+#third_table_menu_2
+{
+    color: rgb(110, 76, 204);
+}
+
+/* Line around caption in menu 2, first table */
+#first_table_menu_2 .line_around_before
+{
+    position: absolute;
+    left: 0;
+    background-color: rgb(198, 116, 18);
+    content: "";
+    border-radius: 20px;
+}
+
+#first_table_menu_2 .line_around_after
+{
+    position: absolute;
+    right: 0;
+    background-color: rgb(198, 116, 18);
+    content: "";
+    border-radius: 20px;
+}
+
+/* Line around caption in menu 2, second table */
+#second_table_menu_2 .line_around_before
+{
+    position: absolute;
+    left: 0;
+    background-color: rgb(165, 103, 153);
+    content: "";
+    border-radius: 20px;
+}
+
+#second_table_menu_2 .line_around_after
+{
+    position: absolute;
+    right: 0;
+    background-color: rgb(165, 103, 153);
+    content: "";
+    border-radius: 20px;
+}
+
+/* Line around caption in menu 2, third table */
+#third_table_menu_2 .line_around_before
+{
+    position: absolute;
+    left: 0;
+    background-color: rgb(110, 76, 204);
+    content: "";
+    border-radius: 20px;
+}
+
+#third_table_menu_2 .line_around_after
+{
+    position: absolute;
+    right: 0;
+    background-color: rgb(110, 76, 204);
+    content: "";
+    border-radius: 20px;
 }

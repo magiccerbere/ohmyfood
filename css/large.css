@@ -66,7 +66,7 @@ li
 
 #menu_2 h2
 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 40px;
 }
 
@@ -119,8 +119,8 @@ footer a
     font-size: 30px;
 }
 
-/* Section Menu 1 : dish presentation */
-#section_menu_1
+/* Section : dish presentation */
+#section_menu_1, #section_menu_2
 {
     padding-left: 105px;
     padding-right: 105px;
@@ -132,7 +132,7 @@ table
     width: 775px;
 }
 
-#section_menu_1 h2
+#section_menu_1 h2, #section_menu_2 h2
 {
     font-size: 50px;
 }
@@ -144,19 +144,19 @@ table
     margin-bottom: 15px;
 }
 
-#section_menu_1 caption
+#section_menu_1 caption, #section_menu_2 caption
 {
     font-size: 30px;
     margin-bottom: 40px;
     margin-top: 100px;
 }
 
-#section_menu_1 caption:nth-child(1)
+#section_menu_1 caption:nth-child(1), #section_menu_2 caption:nth-child(1)
 {
     margin-top: 70px;
 }
 
-#section_menu_1 td
+#section_menu_1 td, #section_menu_2 td
 {
     font-size: 25px;
     padding-bottom: 30px;
@@ -172,4 +172,30 @@ table
 #section_menu_1 p i
 {
     margin-right: 10px;
+}
+
+/* Line around caption in menu */
+.line_around_before, .line_around_after
+{
+    top: 45%;
+    height: 6px;
+    width: 225px;
+}
+
+/* Menu 2 : dish presentation */
+#section_menu_2 h2 
+{
+    font-size: 35px;
+    padding-top: 65px;
+    margin-bottom: 15px;
+}
+
+#section_menu_2 .line_around_before, .line_around_after
+{
+    width: 200px;
+}
+
+#section_menu_2
+{
+    padding-bottom: 85px;
 }
