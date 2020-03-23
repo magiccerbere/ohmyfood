@@ -304,15 +304,16 @@ footer a:hover
     position: relative;
     text-align: center;
 }
+
 .border_menu:before
 {
     content: "";
     position: absolute;
     bottom: 0px;
-    left: 0px;
-    width: 100%;
+    left: 25%;
+    width: 50%;
     height: 2px;
-    border-top: solid;
+    border-bottom: solid;
     transition: transform 500ms linear;
     transform: scaleX(0);
     transform-origin: 0%;
