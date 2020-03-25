@@ -315,10 +315,10 @@ footer a:hover
     height: 2px;
     border-bottom: solid;
     transition: transform 500ms linear;
-    transform: scaleX(0);
     -webkit-transform: scaleX(0);
-    transform-origin: 0%;
+    transform: scaleX(0);
     -webkit-transform-origin: 0%;
+    transform-origin: 0%;
 }
 
 .border_menu:hover:before
