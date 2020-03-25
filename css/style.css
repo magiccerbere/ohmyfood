@@ -323,8 +323,8 @@ footer a:hover
 
 .border_menu:hover:before
 {
-    transform: scaleX(1);
     -webkit-transform: scale(1);
+    transform: scaleX(1);
 }
 
 /* Line around caption in menu 1 */
