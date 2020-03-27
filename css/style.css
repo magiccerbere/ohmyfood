@@ -310,16 +310,14 @@ footer a:hover
     content: "";
     position: absolute;
     bottom: 0px;
-    left: 25%;
-    width: 50%;
-    height: 2px;
+    width: 100%;
     border-bottom: solid;
     transition: transform 500ms linear;
     transform: scaleX(0);
     transform-origin: 0%;
 }
 
-.border_menu:hover:before
+.border_menu:hover span:nth-child(2):before
 {
     transform: scaleX(1);
 }
