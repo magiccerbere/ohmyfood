@@ -305,7 +305,7 @@ footer a:hover
     text-align: center;
 }
 
-.border_menu span:nth-child(2):before
+caption span:nth-child(2)::before
 {
     content: "";
     position: absolute;
@@ -317,10 +317,11 @@ footer a:hover
     transform-origin: 0%;
 }
 
-.border_menu:hover span:nth-child(2):before
+caption:hover span:nth-child(2)::before
 {
     transform: scaleX(1);
 }
+
 
 /* Line around caption in menu 1 */
 #section_menu_1 .line_around_before
