@@ -136,14 +136,14 @@ table
     width: 930px;
 }
 
-#section_menu_1 h2, #section_menu_2 h2, #section_menu_4 h2
+#section_menu_1 h2, #section_menu_2 h2
 {
     font-size: 60px;
     padding-top: 85px;
     margin-bottom: 20px;
 }
 
-#section_menu_3 h2
+#section_menu_3 h2,  #section_menu_4 h2
 {
     font-size: 90px;
     padding-top: 85px;
