@@ -305,12 +305,12 @@ footer a:hover
     text-align: center;
 }
 
-caption span:nth-child(2)
+.border_menu span:nth-child(2)
 {
     position: relative;
 }
 
-caption span:nth-child(2)::before
+.border_menu span:nth-child(2)::before
 {
     content: "";
     position: absolute;
@@ -322,7 +322,7 @@ caption span:nth-child(2)::before
     transform-origin: 0%;
 }
 
-caption:hover span:nth-child(2)::before
+.border_menu:hover span:nth-child(2)::before
 {
     transform: scaleX(1);
 }
