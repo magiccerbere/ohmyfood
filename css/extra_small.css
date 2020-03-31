@@ -156,14 +156,14 @@ tr
     margin-bottom: 10px;
 }
 
-caption
+.border_menu
 {
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 20px;
 }
 
-caption:nth-child(1)
+.border_menu:nth-child(1)
 {
     margin-top: 20px;
 }
@@ -191,7 +191,7 @@ td
     padding-bottom: 30px;
 }
 
-/* Line around caption in menu  */
+/* Line around h3 in menu  */
 .line_around_before, .line_around_after
 {
     display: none;

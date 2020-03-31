@@ -148,14 +148,14 @@ table
     margin-bottom: 10px;
 }
 
-caption
+.border_menu
 {
     font-size: 20px;
     margin-bottom: 25px;
     margin-top: 60px;
 }
 
-caption:nth-child(1)
+.border_menu:nth-child(1)
 {
     margin-top: 45px;
 }
@@ -183,7 +183,7 @@ td
     padding-bottom: 55px;
 }
 
-/* Line around caption in menu */
+/* Line around h3 in menu */
 .line_around_before, .line_around_after
 {
     top: 45%;

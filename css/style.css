@@ -297,7 +297,7 @@ footer a:hover
     font-family: "Devonshire";
 }
 
-/* Transition on caption for menu and line around caption in menu */
+/* Transition on h3 for menu and line around h3 in menu */
 
 .border_menu
 {
@@ -328,7 +328,7 @@ footer a:hover
 }
 
 
-/* Line around caption in menu 1 */
+/* Line around h3 in menu 1 */
 #section_menu_1 .line_around_before
 {
     position: absolute;
@@ -366,26 +366,32 @@ footer a:hover
 
 /* First table in menu 2 */
 
-#first_table_menu_2
+.first_table_menu_2
 {
     color: rgb(198, 116, 18);
+
+}
+
+#section_menu_2 h3
+{
+    font-weight: 600;
 }
 
 /* Second table in menu 2 */
 
-#second_table_menu_2
+.second_table_menu_2
 {
     color: rgb(165, 103, 153);
 }
 
 /* Third table in menu 2 */
-#third_table_menu_2
+.third_table_menu_2
 {
     color: rgb(110, 76, 204);
 }
 
-/* Line around caption in menu 2, first table */
-#first_table_menu_2 .line_around_before
+/* Line around h3 in menu 2, first table */
+.first_table_menu_2 .line_around_before
 {
     position: absolute;
     left: 0;
@@ -394,7 +400,7 @@ footer a:hover
     border-radius: 20px;
 }
 
-#first_table_menu_2 .line_around_after
+.first_table_menu_2 .line_around_after
 {
     position: absolute;
     right: 0;
@@ -403,8 +409,8 @@ footer a:hover
     border-radius: 20px;
 }
 
-/* Line around caption in menu 2, second table */
-#second_table_menu_2 .line_around_before
+/* Line around h3 in menu 2, second table */
+.second_table_menu_2 .line_around_before
 {
     position: absolute;
     left: 0;
@@ -413,7 +419,7 @@ footer a:hover
     border-radius: 20px;
 }
 
-#second_table_menu_2 .line_around_after
+.second_table_menu_2 .line_around_after
 {
     position: absolute;
     right: 0;
@@ -422,8 +428,8 @@ footer a:hover
     border-radius: 20px;
 }
 
-/* Line around caption in menu 2, third table */
-#third_table_menu_2 .line_around_before
+/* Line around h3 in menu 2, third table */
+.third_table_menu_2 .line_around_before
 {
     position: absolute;
     left: 0;
@@ -432,7 +438,7 @@ footer a:hover
     border-radius: 20px;
 }
 
-#third_table_menu_2 .line_around_after
+.third_table_menu_2 .line_around_after
 {
     position: absolute;
     right: 0;
@@ -458,13 +464,13 @@ footer a:hover
     padding: 15px;
 }
 
-#section_menu_3 table
+#section_menu_3
 {
     font-family: "Kalam";
 }
 
-/* Line around caption in menu 3, first table */
-#first_table_menu_3 .line_around_before
+/* Line around h3 in menu 3, first table */
+.first_table_menu_3 .line_around_before
 {
     position: absolute;
     left: 0;
@@ -473,7 +479,7 @@ footer a:hover
     border-radius: 20px;
 }
 
-#first_table_menu_3 .line_around_after
+.first_table_menu_3 .line_around_after
 {
     position: absolute;
     right: 0;
@@ -482,8 +488,8 @@ footer a:hover
     border-radius: 20px;
 }
 
-/* Line around caption in menu 3, second table */
-#second_table_menu_3 .line_around_before
+/* Line around h3 in menu 3, second table */
+.second_table_menu_3 .line_around_before
 {
     position: absolute;
     left: 0;
@@ -492,7 +498,7 @@ footer a:hover
     border-radius: 20px;
 }
 
-#second_table_menu_3 .line_around_after
+.second_table_menu_3 .line_around_after
 {
     position: absolute;
     right: 0;
@@ -501,8 +507,8 @@ footer a:hover
     border-radius: 20px;
 }
 
-/* Line around caption in menu 3, third table */
-#third_table_menu_3 .line_around_before
+/* Line around h3 in menu 3, third table */
+.third_table_menu_3 .line_around_before
 {
     position: absolute;
     left: 0;
@@ -511,7 +517,7 @@ footer a:hover
     border-radius: 20px;
 }
 
-#third_table_menu_3 .line_around_after
+.third_table_menu_3 .line_around_after
 {
     position: absolute;
     right: 0;
@@ -537,12 +543,12 @@ footer a:hover
     padding: 15px;
 }
 
-#section_menu_4 table
+#section_menu_4
 {
     font-family: "Kalam";
 }
 
-/* Line around caption in menu 4 */
+/* Line around h3 in menu 4 */
 #section_menu_4 .line_around_before
 {
     position: absolute;
