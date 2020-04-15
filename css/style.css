@@ -3,16 +3,16 @@
 header
 {
 	background-color: rgb(87, 156, 135);
-	color: rgb(253, 203, 70);
 	font-family: 'Montserrat';
 	font-weight: bold;
 	letter-spacing: -0.05em;
 	display: flex;
 }
 
-header h1
+header a
 {
-	margin: auto;
+    margin: auto;
+    color: rgb(253, 203, 70);
 	text-transform: lowercase;
 }
 
